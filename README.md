@@ -4,7 +4,7 @@
 
 ---
 
-**GunDamagePlus** is a _LeviLamina_ plugin designed to address common issues with custom Addon firearms in the original Minecraft Bedrock Edition. It removes the invincibility frames for projectiles (bullets), enabling true consecutive shooting damage, and supports displaying the source of the damage. 
+**GunDamagePlus** is a _LeviLamina_ plugin designed to address common issues with custom Addon firearms in the original Minecraft Bedrock Edition. It removes the invincibility frames during the throwing of projectiles (bullets), enabling true consecutive shooting damage, and supports recording the source of the damage.
 
 ### Function 
 
