@@ -1,11 +1,9 @@
 #include "Main.h"
 
-#include <utility>
 
 #include "ll/api/mod/RegisterHelper.h"
 #include "ll/api/memory/hook.h"
 
-#include "mc/deps/game_refs/GameRefs.h"
 
 #include "mc/world/actor/Actor.h"
 #include "mc/world/actor/player/Player.h"
