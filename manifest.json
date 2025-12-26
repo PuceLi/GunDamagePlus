@@ -2,5 +2,7 @@
     "name": "${modName}",
     "entry": "${modFile}",
     "version": "${modVersion}",
+    "Author": "PuceLi",
+    "description": "Improve the damage behavior for the guns Addon. - By Github@PuceLi",
     "type": "native"
 }

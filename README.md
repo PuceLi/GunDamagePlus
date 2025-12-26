@@ -1,26 +1,19 @@
-# LeviLamina Mod Template
+# GunDamagePlus / 枪械增强插件
 
-Mod Template for LeviLamina
+[简体中文](README_zh.md)
 
-## Usage
+---
 
-For detailed instructions, see the [LeviLamina Documentation](https://lamina.levimc.org/developer_guides/tutorials/create_your_first_mod/)
+**GunDamagePlus** is a _LeviLamina_ plugin designed to address common issues with custom Addon firearms in the original Minecraft Bedrock Edition. It removes the invincibility frames for projectiles (bullets), enabling true consecutive shooting damage, and supports displaying the source of the damage. 
 
-1. Generate a new repository from this template
-2. Clone the new repository
-3. Change the mod name and the expected LeviLamina version in `xmake.lua`
-4. Add your code.
-5. Run `xmake f -y -p windows -a x64 -m release` in the root of the repository
-6. Run `xmake` to build the mod.
+### Function 
 
-After a successful build, you will find mod in `bin/`
+1. **Kill Notification Fix**: This plugin will automatically set the owner (the player who fired the shot) as the initiator when the projectile is initialized. The kill information will correctly display the player's name and trigger the corresponding script events. 
 
-## Contributing
+2. **No hurt time**: This plugin specifically removes the invincibility cooldown for projectile-type damage. Every bullet that hits will cause damage， making machine gun weapons no longer ineffective. 
 
-Ask questions by creating an issue.
+### Installation 
 
-PRs accepted.
-
-## License
-
-CC0-1.0 © LeviMC(LiteLDev)
+1. Download the compressed file.
+2. Extract the compressed file to the `plugins` folder in the server directory.
+3. Start the server.
