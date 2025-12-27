@@ -10,7 +10,7 @@
 
 1. **Kill Notification Fix**: This plugin will automatically set the owner (the player who fired the shot) as the initiator when the projectile is initialized. The kill information will correctly display the player's name and trigger the corresponding script events. 
 
-2. **No hurt time**: This plugin specifically removes the invincibility cooldown for projectile-type damage. Every bullet that hits will cause damage， making machine gun weapons no longer ineffective. 
+2. **No hurt time**: This plugin specifically removes the invincibility cooldown for projectile-type damage. Every bullet that hits will cause damage, making machine gun weapons no longer ineffective. 
 
 ### Installation 
 
